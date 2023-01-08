@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+    background-color: #ddd;
+    font-family: 'Ubuntu', sans-serif;
+}
+::selection {
+    background-color: black;
+    color: white;
+}
+.parent{
+    border: 5px solid #030303;
+}
+div{
+    display: inline-block;
+    background-color: #444;
+    color: #030303;
+    padding: 10px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:visited:hover{
+    color: red;
+}
+a:hover{
+    color: aqua;
+}
+.bdfd {
+    width: 300px;
+}
+.bdfd::before{
+    content: "Introduction";
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
+.bdfd::after {
+    content: "Thanks before visited my website";
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
